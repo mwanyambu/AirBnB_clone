@@ -1,0 +1,17 @@
+footer {
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	position: fixed;
+	bottom: 0;
+	flex-direction: row;
+}
+p {
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
