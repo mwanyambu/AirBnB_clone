@@ -4,40 +4,39 @@
 	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	margin: 0;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
-button {
+section.filters button {
+	color: white;
 	font-size: 18px;
 	background-color: #FF5A5F;
-	text-color: #FFFFFF;
 	height: 48px;
 	width: 20%;
-	border: none;
+	border: 0px;
 	border-radius: 4px;
 	margin-left: auto;
 	margin-right: 30px;
+	opacity: 1;
 }
-button:hover {
+section.filters button:hover {
 	opacity: 0.9;
 }
-h3 {
+.locations h3, .amenities h3 {
 	font-weight: 600;
-	margin: 10px 40px 5px;
-	color: #484848;
+	margin: 12px 0 5px 0;
 }
-h4 {
+.locations h4, .amenities h4 {
 	font-weight: 400;
 	font-size: 14px;
-	margin: 0 40px;
-	color: #484848;
+	margin: 0 0 0 0;
 }
 .locations {
 	border-right:1px solid #DDDDDD
 }
-.locations .amenities {
+.locations, .amenities {
+	padding-left: 50px;
 	height: 100%;
 	width: 25%;
 }

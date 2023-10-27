@@ -2,31 +2,26 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	flex-flow: row wrap;
-	margin-top: 20px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	border: 0;
 }
-.places article {
-	padding: 20px;
-	margin: 20px;
+.places >  article {
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
 	width: 390px;
 	display: flex;
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
-	order: 2;
-	grid-row-start: 2;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-content: space-between;
+	justify-content: center
 }
-.places h1 {
-	text-align: left;
+.places > h1 {
+	margin-bottom: 0px;
 	font-size: 30px;
-	padding: 15px;
-	flex-basis: 90%
+	padding-top: 20px;
+	padding-left: 20px;
+	flex: 0 1 100%;
 }
-.places h2 {
-	text-align: center;
+.places > article > h2 {
 	font-size: 30px;
-	align-content: center;
-	width: 75%;
 }
